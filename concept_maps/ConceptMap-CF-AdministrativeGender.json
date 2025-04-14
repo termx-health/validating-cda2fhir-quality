@@ -1,0 +1,72 @@
+{
+  "resourceType" : "ConceptMap",
+  "id" : "CF-AdministrativeGender",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap CF-AdministrativeGender</b></p><a name=\"CF-AdministrativeGender\"> </a><a name=\"hcCF-AdministrativeGender\"> </a><a name=\"CF-AdministrativeGender-en-US\"> </a><p>Mapping from https://vsac.nlm.nih.gov/valueset/2.16.840.1.113883.1.11.1 to <a href=\"http://hl7.org/fhir/R4/valueset-administrative-gender.html\">AdministrativeGender</a></p><br/><p><b>Group 1 </b>Mapping from <a href=\"http://terminology.hl7.org/6.1.0/CodeSystem-v3-AdministrativeGender.html\">AdministrativeGender</a> to <a href=\"http://hl7.org/fhir/R4/codesystem-administrative-gender.html\">AdministrativeGender</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td></tr><tr><td>M (Male)</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>male</td></tr><tr><td>F (Female)</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>female</td></tr><tr><td>UN (Undifferentiated)</td><td><a href=\"http://hl7.org/fhir/extensions/5.1.0/CodeSystem-concept-map-equivalence.html#wider\" title=\"wider\">maps to wider concept</a></td><td>other</td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "cgp"
+  }],
+  "url" : "http://hl7.org/fhir/us/ccda/ConceptMap/CF-AdministrativeGender",
+  "version" : "2.0.0-ballot",
+  "name" : "CCDAtoFHIRAdminsitrativeGender",
+  "title" : "C-CDA to FHIR Adminmistrative Gender",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-12-12T19:27:42+00:00",
+  "publisher" : "HL7 International / Cross-Group Projects",
+  "contact" : [{
+    "name" : "HL7 International / Cross-Group Projects",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/cgp"
+    }]
+  }],
+  "description" : "C-CDA to FHIR Adminmistrative Gender",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "sourceUri" : "1.3.6.1.4.1.28284.6.2.3.16.1",
+  "targetUri" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+  "group" : [{
+    "source" : "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
+    "target" : "http://hl7.org/fhir/administrative-gender",
+    "element" : [{
+      "code" : "M",
+      "display" : "Male",
+      "target" : [{
+        "code" : "male",
+        "display" : "Male",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "F",
+      "display" : "Female",
+      "target" : [{
+        "code" : "female",
+        "display" : "Female",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "UN",
+      "display" : "Undifferentiated",
+      "target" : [{
+        "code" : "other",
+        "display" : "Other",
+        "equivalence" : "wider"
+      }]
+    }],
+    "unmapped" : {
+      "mode" : "fixed",
+      "code" : "unknown",
+      "display" : "Unknown"
+    }
+  }]
+}

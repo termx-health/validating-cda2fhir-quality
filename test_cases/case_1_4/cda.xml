@@ -1,0 +1,8 @@
+<patient classCode="PSN" determinerCode="INSTANCE">
+    <name>
+      <family>RANDMAA</family>
+      <given>RAINER</given>
+    </name>
+    <administrativeGenderCode code="M" codeSystem="1.3.6.1.4.1.28284.6.2.3.16.1" codeSystemName="Sugu" displayName="mees"/>
+    <birthTime value="20000703"/>
+</patient>

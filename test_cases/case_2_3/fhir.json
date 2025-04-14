@@ -1,0 +1,63 @@
+{
+  "resourceType": "Bundle",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Specimen",
+        "type": {
+          "coding": [
+            {
+              "code": "2131",
+              "display": "FT4"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "valueQuantity": {
+          "value": 12.2,
+          "unit": "pmol/l"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Specimen",
+        "type": {
+          "coding": [
+            {
+              "code": "2127",
+              "display": "TSH"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "valueQuantity": {
+          "value": 1.5,
+          "unit": "mU/l"
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Procedure",
+        "code": {
+          "coding": [
+            {
+              "system": "1.3.6.1.4.1.28284.1.9.2.16",
+              "code": "2127",
+              "display": "Immuunmeetodi uuringud"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

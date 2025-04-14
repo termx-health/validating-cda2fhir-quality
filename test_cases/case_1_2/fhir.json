@@ -1,0 +1,11 @@
+{
+  "resource": {
+    "resourceType": "Practitioner",
+    "name": [
+      {
+        "family": "Randmaa",
+        "given": ["Rainer"]
+      }
+    ]
+  }
+}
